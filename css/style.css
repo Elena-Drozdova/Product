@@ -1,0 +1,486 @@
+/* 
+1.Header
+2.Main
+    2.2.Dignity
+    2.3.Screenshots
+    2.4.Reviews
+    2.5.Buy
+3.Footer
+ */
+
+.body-index {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ /* ==========================================================  1.Header  ========================================================== */
+
+ .container {
+    max-width: 1280px;
+    margin: 0 auto;
+    box-sizing: border-box;
+ }
+ .header-page {
+    display: flex;
+    justify-content: space-between;
+    padding: 47px;
+    background-color: #455062;
+ }
+ .header-title {
+    color: #FFFFFF;
+ }
+ .title1 {
+    margin: 0 0 20px 0;
+    font-size: 60px;
+    line-height: 1.2;
+    font-weight: 400;
+}
+ .header-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 400;
+ }
+ .header-list-item {
+    position: relative;
+    padding-left: 35px;
+    box-sizing: border-box;
+ }
+ .header-list-item::before {
+    content: "";
+    display: block;
+    width: 25px;
+    height: 19px;
+    position: absolute;
+    top: 5px;
+    left: 0;
+    background-image: url(../img/check-icon.png);
+    background-size: cover;
+}
+.header-img {
+    display: block;
+    width: 469px;
+    height: 214px;
+    background-color: #FFFFFF; 
+}
+
+/* ==========================================-=========  2.Main  ============================================================= */
+
+.main-page {
+}
+.main-section-first {
+    padding: 50px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+}
+.abour-produkt {
+    width: 655px;
+    color: #45515F;
+}
+.title2 {
+    font-size: 30px;
+    text-align: left;
+    margin: 0 0 30px 0;
+}
+.text {
+    margin: 0 0 20px 0;
+    font-size: 16px;
+    text-align: left;
+}
+.text:last-child {
+    margin: 0;
+}
+.abour-produkt-video {
+    width: 430px;
+    height: 245px;
+    background-color: #45515F;
+}
+
+/* --------------------------------------------------  2.2.Dignity  -------------------------------------------------------- */
+
+.dignity {
+    background-color: #F5F5F5;
+    color: #45515F;
+    padding: 50px 50px 17px 50px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.title-dignity {
+    width: 100%;
+    margin: 0 0 28px 0;
+    text-align: center;
+}
+.dignity-col {
+    margin: 0;
+    padding: 0;
+    width: 49%;
+    box-sizing: border-box;
+}
+.dignity-list {
+    box-sizing: border-box;
+    width: 526px;
+    position: relative;
+    list-style: none;
+    margin: 0 0 33px 0;
+    padding: 0 0 0 40px;
+}
+.dignity-list::before {
+    content: "+";
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 32px;
+    display: block;
+    width: 33px;
+    height: 33px;
+    position: absolute;
+    top: 3px;
+    left: 0;
+    background-size: cover;
+    background-color: #45515F; 
+}
+
+
+/* --------------------------------------------------  2.3.Screenshots  -------------------------------------------------------- */
+
+.section-screenshots {
+    background-color: #FFFFFF;
+    color: #45515F;
+    padding: 50px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.title-screenshots {
+    width: 100%;
+    margin: 0 0 34px 0;
+    text-align: center;
+}
+.screenshots {
+    margin: 0px;
+    width: 48%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.screenshots:nth-child(4),
+.screenshots:nth-child(5){
+  margin: 0;
+}
+.screenshots-img {
+    min-width: 200px;
+    height: 150px;
+    background-color: #445161;
+    display: block;
+    margin: 0 15px 0 0;
+}
+.screenshots-item {}
+.title3 {
+    margin: 0 0 15px 0;
+    font-size: 24px;
+    text-align: left;
+}
+
+
+/* --------------------------------------------------  2.4.Reviews  -------------------------------------------------------- */
+
+.section-reviews {
+    background-color: #F5F5F5;
+    color: #45515F;
+    padding: 50px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.reviews {
+    width: 575px;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+.reviews:nth-child(4),
+.reviews:nth-child(5){
+  margin: 0;
+}
+.reviews-img {
+    width: 76px;
+    height: 76px;
+    background-color: #445161;
+    display: block;
+    border-radius: 50%;
+}
+.text-reviews {
+    background-color: #EBEBEB;
+    width: 483px;
+    margin: 0 0 0 40px;
+    padding: 16px 20px;
+    border-radius: 10px;
+    position: relative;
+    font-size: 14px;
+    box-sizing: border-box;
+    font-style: oblique;
+}
+.text-reviews:before {
+    content: "";
+    border: 13px solid transparent; 
+    border-right: 13px solid #EBEBEB;
+    position: absolute;
+    top: 23px;
+    left: -26px;
+    display: block;
+  }
+.reviews-link {
+    padding: 0;
+    margin: 16px 0 0 0;
+    display: block;
+    font-style: oblique;
+    text-decoration: none;
+    color: #989898;
+}
+
+/* --------------------------------------------------  2.5.Buy  -------------------------------------------------------- */
+
+.section-buy {
+    background-color: #FFFFFF;
+    color: #45515F;
+    padding: 50px 145px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+.title-buy {
+    width: 100%;
+    margin: 0 0 29px 0;
+    text-align: center;
+}
+.buy {
+    padding: 0 0 15px 0;
+    width: 300px;
+    border: 2px solid #445161;
+    background-color: #445161;
+    box-sizing: border-box;
+}
+.title-cost {
+    text-align: center;
+    margin: 0;
+    color: #FFFFFF;
+    padding: 17px 0;
+}
+.cost {
+    font-size: 40px;
+    display: block;
+    text-align: center;
+    background-color: #FFFFFF;
+    padding: 18px 0;
+}
+.list-buy {
+    margin: 20px 0 0 0;
+    padding: 0 0 0 20px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    list-style-position: inside;
+    font-size: 14px;
+    line-height: 24px;
+}
+.button-buy {
+    text-transform: uppercase;
+    font-weight: bolder;
+    display: block;
+    width: 260px;
+    margin: 20px auto 0 auto;
+    padding: 15px 112px 13px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #445161;
+}
+
+/* ==========================================-=========  3.Footer  ============================================================= */
+
+
+.main-footer {
+    background-color: #455062;
+    color: #FFFFFF;
+    padding: 53px 200px 50px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+.title-footer {
+    width: 100%;
+    margin: 0 0 31px 0;
+    text-align: center;
+}
+.footer-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 500px;
+    margin: 0 46px 0 0;
+}
+.footer-form input[type="text"],
+.footer-form input[type="email"],
+.footer-form textarea {
+    width: 100%;
+    height: 40px;
+    margin: 0 0 20px 0;
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+    background-color:  #ffffff;
+    outline: none;
+    text-transform: capitalize;
+}
+.footer-form textarea {
+    width: 500px;
+    height: 170px;
+    border: none;
+    border-radius: 5px;
+    background-color:  #ffffff;
+    outline: none;
+    resize: none;
+  }
+input[placeholder],
+textarea[placeholder] {
+    font-family: Arial;
+    color:  #445162;
+    font-size: 16px;
+    text-align: left;
+}  
+.footer-form input[type="text"]:hover,
+.footer-form input[type="email"]:hover,
+.footer-form textarea:hover {
+    background-color: #EBEBEB;
+}
+.footer-form input[type="text"]:hover::placeholder,
+.footer-form input[type="email"]:hover::placeholder,
+.footer-form textarea:hover::placeholder {
+    color: #ffffff;
+}
+.footer-form input[type="submit"] {
+    border-radius: 5px;
+    background-color:  #ffffff;
+    width: 140px;
+    height: 40px;
+    border: none;
+    text-transform: uppercase;
+    color:  #445162;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    outline: none;
+  }
+.footer-form input[type="submit"]:hover {
+    background-color: #EBEBEB;
+    color: #ffffff;
+  }
+.footer-form input[type="submit"]:active {
+    background-color:  #445162;
+    color:  #ffffff;
+  }
+.contacts {
+    width: 240px;
+    margin: 0;
+    box-sizing: border-box;
+    color: #ffffff;
+}
+.contacts-link {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 19px;
+    padding-left: 30px;
+    line-height: 26px;
+    position: relative;
+}
+.link4 {
+    margin-bottom: 32px;
+}
+.contacts-link::before {
+    content: "";
+    display: block;
+    width: 25px;
+    height: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 1px;
+    left: 0;
+}
+.link1::before {
+    background-image: url(../img/skype\ icon@1X.png );
+}
+.link2::before {
+    background-image: url(../img/icq\ icon@1X.png);
+}
+.link3::before {
+    background-image: url(../img/email\ icon@1X.png);
+}
+.link4::before {
+    background-image: url(../img/phone\ icon@1X.png);
+}
+.footer-icon {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 240;
+    height: 40px;
+}
+.footer-icon-net {
+    display: block;
+    width: 40px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    background-image: url(../img/sprite.png);
+    background-size: 390px 125px;
+}
+.icon1 {
+    background-position: 53px -14px;
+}
+.icon2 {
+    background-position: 312px -14px;
+}
+.icon3 {
+    background-position: 118px -14px;
+}
+.icon4 {
+    background-position: 573px -14px;
+}
+.icon5 {
+    background-position: 637px -14px;
+}
+.icon1:hover {
+    background-position: 53px 47px;
+}
+.icon2:hover {
+    background-position: 312px 47px;
+}
+.icon3:hover {
+    background-position: 118px 47px;
+}
+.icon4:hover {
+    background-position: 573px 47px;
+}
+.icon5:hover {
+    background-position: 637px 47px;
+}
+.copy {
+    background-color: #FFFFFF;
+    color: #455263;
+    width: 100%;
+    text-align: center;
+    margin: 10px 0 5px;
+    font-size: 12px;
+}
